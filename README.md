@@ -1,6 +1,6 @@
 # MERN Blog App
 
-A MERN application for basic CRUD operations , authentication and authorization.
+A MERN application using basic CRUD operations , authentication and authorization.
 
 ## Table of Contents
 
