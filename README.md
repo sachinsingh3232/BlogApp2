@@ -1,4 +1,4 @@
-# MERN Task Manager
+# MERN Blog App
 
 A MERN application for basic CRUD operations , authentication and authorization.
 
