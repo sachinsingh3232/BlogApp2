@@ -4,7 +4,7 @@ const User = require('../Models/userModel');
 
 const getPosts = async (req, res) => {
     try {
-        const data = req.query.cat ? await Post.find({ cat: req.query.cat }).populate('userId') : await Post.find().populate('userId').sort({date: -1});
+        const data = req.query.cat ? await Post.find({ cat: req.query.cat }).populate('userId').sort({date: -1}) : await Post.find().populate('userId').sort({date: -1});
         return res.status(200).json(data);
     } catch (e) {
         console.log(e)
