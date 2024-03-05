@@ -12,10 +12,7 @@ const app = express();
 connectDB();
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({
-    origin: process.env.CORS_URL,
-    credentials: true
-}));
+app.use(cors());
 
 app.use('/api/posts', postRoute);
 app.use('/api/auth', authRoute);
